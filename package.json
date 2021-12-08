@@ -1,0 +1,30 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "前端开发笔记",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "JunXianSun",
+  "license": "ISC",
+  "dependencies": {
+    "echarts": "^5.0.2",
+    "element-ui": "^2.15.1",
+    "highlight.js": "^9.18.5",
+    "inputmask": "^3.3.11",
+    "less-loader": "^5.0.0",
+    "vue": "^2.6.12",
+    "vue-highlight.js": "^2.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "less": "^3.13.1",
+    "vuepress": "^1.8.2"
+  }
+}
