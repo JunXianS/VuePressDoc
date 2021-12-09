@@ -5,7 +5,7 @@ title: 模板说明
 ## 模板展示
 模板展示如图： ① 标题 ② 描述文字 ③ 视图展示 ④ 适用平台 ⑤ 其他描述 
 
-<img src="img/moban.png" style="width:80%;">
+<img src="../.vuepress/public/img/moban.png" style="width:80%;">
 
 ## 模板代码
 

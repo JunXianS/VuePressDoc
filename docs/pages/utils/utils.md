@@ -6,7 +6,7 @@ title: 模板说明
 
 [正则表达式](https://any86.github.io/any-rule/):比较全的正则表达式。正则表达式难记，直接拿来用。
 
- <img src="/img/zz.png" style="width:40%;">
+ <img src="../../.vuepress/public/img/zz.png" style="width:50%;">
 
 ## 数据结构和算法动态可视化
 
@@ -19,4 +19,6 @@ title: 模板说明
 
 用途：代码语法的检查、代码风格的检查、代码的格式化、代码的高亮、代码错误提示、代码自动补全
  
-## 待补充
+## gitHub身份验证
+
+[gitHub身份验证](https://www.w3cschool.cn/githubcn/githubcn-34sx3acb.html)  

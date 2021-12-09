@@ -1,8 +1,15 @@
 ---
 title: 大屏模块
-sidebarDepth: 2
+sidebarDepth: 0
 ---
   
+## 已交付大屏尺寸整理
+
+| 尺寸 | 比例   | 应用 | 备注1 | 备注2 |
+| ----- | --------- | ----------- | ------- |------- |
+| 1920*1080 | 16:9 |  进博会大屏2020           |         |         |
+|      |      | 进博会大屏2021      |     |         |
+
 <docc-self title="可视化图表"
   description="大屏模块，echarts图表demo" onlineLink="https://codepen.io/">
   <demo-calendar></demo-calendar>

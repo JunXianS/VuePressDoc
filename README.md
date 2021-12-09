@@ -17,4 +17,8 @@
 `npm run dev`
 
 浏览器访问 http://localhost:6868
+
+**打包部署服务**        
+`npm run build`
+
  

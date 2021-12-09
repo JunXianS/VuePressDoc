@@ -6,7 +6,7 @@
 module.exports = {
   title: '前端开发笔记',
   description: 'Welcome to Doc',
-  base: '/superDoc/',
+  base: '/VuePressDoc/',
   head: [
     ['link', {
       rel: 'icon',
@@ -20,7 +20,7 @@ module.exports = {
   //主题配置
   themeConfig: {
     displayAllHeaders: true,
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     nav: [{
         text: '主页',
         link: '/'
@@ -28,27 +28,26 @@ module.exports = {
       {
         text: '使用说明',
         link: '/guide/quickStart'
-      },
+      }, 
       {
-        text: '常用工具',
-        link: '/pages/utils/utils'
-      },
-      {
-        text: '前端',
+        text: '前端笔记',
         link: '/pages/bigScreen/docScreen'
       },
     ],
     sidebar: {  
       '/pages/': [{
         title: '介绍',
-        collapsable: false,
+        collapsable: true,
         children: [{
+          title: '常用工具',
+          path: 'utils/utils',
+          collapsable: true,
+        },{
           title: '大屏模块',
           path: 'bigScreen/docScreen' 
         },{
             title: 'Vue.js',
-            path: 'vue/vue',
-            collapsable: false,
+            path: 'vue/vue' 
           },
           {
             title: 'css',
@@ -57,15 +56,11 @@ module.exports = {
           },
           {
             title: 'echarts图表',
-            path: 'bigScreen/docScreen',
+            path: 'echarts/echarts',
             collapsable: false,
           } 
         ]
-      }],
-      '/pages/utils/': [{
-        title: '常用工具',
-        path: 'utils'
-      }],
+      }], 
       '/guide/': [{
         title: '使用说明',
         collapsable: false,

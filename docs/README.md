@@ -2,7 +2,7 @@
 home: true
 heroImage: /favicon.png
 actionText: doc指南 →
-actionLink: /guide/tips
+actionLink: /guide/introduction
 features:
 - title: css样式模板
   details: css常用样式模板，固定css写法，常见布局，可直接复制使用

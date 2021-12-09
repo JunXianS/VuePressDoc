@@ -1,4 +1,4 @@
-## <img  class="ttimg" src="/hero.png" />维护安装
+## <img  class="ttimg" src="../.vuepress/public/hero.png" />维护安装
 
 ::: tip 
 **进入项目目录**      
